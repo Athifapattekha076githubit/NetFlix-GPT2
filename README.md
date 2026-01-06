@@ -41,20 +41,3 @@ APIs: Movie APIs for fetching movie data and trailers, YouTube embedded videos
 
 Other Tools: Custom React hooks for API integration
 
-# Create ReactApp
--Configure Tailwind
--Header.js,login form sign up form
--we have setup firebase
--authentication, hosting too
--SignIn, Sign UP auth is done
--we have installed redux in our app
--created appstore, user Slice to update our store
--custom hook for now Playing movies
--update store with movies data
--create movieSlice
--planning for mainContainer, secondary container
-fetch Data for TrailerVideo
-update store with Trailervideo
--embeded with youtube video and make it auto play and mute
--now Build secondary component
--
