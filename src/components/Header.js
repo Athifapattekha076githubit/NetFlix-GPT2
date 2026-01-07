@@ -73,7 +73,7 @@ const Header = () => {
     {user && (
       <button
         onClick={handleGptSearchClick}
-        className="md:inline-flex px-3 py-2 bg-purple-700 text-white rounded-lg hover:bg-purple-600 transition-colors md:w-[10rem]"
+        className="md:inline-flex px-3 py-2 bg-purple-700 text-white rounded-lg hover:bg-purple-600 transition-colors md:w-[9rem]"
       >
         {showGptSearch ? "Home Page" : "🔍GPT-Search"}
       </button>
