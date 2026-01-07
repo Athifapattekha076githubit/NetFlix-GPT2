@@ -7,7 +7,12 @@ const GptSearchPage = () => {
   return (
      <>
       <div className="fixed -z-10">
-        <img className="h-screen object-cover md:w-screen" src={Netflix_bg_Logo} alt="logo" />
+       <img
+  className="w-screen h-screen object-cover"
+  src={Netflix_bg_Logo}
+  alt="logo"
+/>
+
       </div>
       <div className="">
         <GPTSerachBar />

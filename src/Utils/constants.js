@@ -5,13 +5,13 @@ export const Netflix_bg_Logo = "https://assets.nflxext.com/ffe/siteui/vlv3/bebd9
 export const User_Icon = "https://occ-0-55-56.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABXYofKdCJceEP7pdxcEZ9wt80GsxEyXIbnG_QM8znksNz3JexvRbDLr0_AcNKr2SJtT-MLr1eCOA-e7xlDHsx4Jmmsi5HL8.png?r=1d4";
 
 //  export const User_Icon  ="https://tse1.mm.bing.net/th/id/OIP.dFzfhP8BchbUqIy6L8zhdwAAAA?pid=Api&P=0&h=180";
-const API_KEY = process.env.REACT_APP_TMDB_KEY;
+const API_KEY = "Bearer"+process.env.REACT_APP_TMDB_KEY;
 
 export const API_OPTIONS = {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization: "Bearer"+ REACT_APP_TMDB_KEY,
+    Authorization: "Bearer"+process.env.REACT_APP_TMDB_KEY,
   }}
 
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w400";
@@ -29,4 +29,4 @@ export const SUPPORTED_LANGUAGE = [{
 
 
 
-export const OPENAI_KEY = REACT_APP_OpenRouterAI_KEY;
+export const OPENAI_KEY = process.env.REACT_APP_OpenRouterAI_KEY;

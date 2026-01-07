@@ -90,11 +90,8 @@ createUserWithEmailAndPassword(auth, email.current.value, password.current.value
 
 
 
-}
-
-
-        
-        console.log(email.current.value)
+}        
+        // console.log(email.current.value)
         //  console.log(name.current.value)
        
        
